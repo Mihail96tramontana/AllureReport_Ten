@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6249dbc1-182d-41e7-8bae-d7355d0c1f20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/LamdaAnnotatedSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/SelenideTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/WebSteps.java" afterDir="false" />
+    <list default="true" id="6249dbc1-182d-41e7-8bae-d7355d0c1f20" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/LamdaAnnotatedSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/LamdaAnnotatedSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/SelenideTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +73,7 @@
       <recent name="qa.guru.allurereport" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AllureReport_Ten [allureServe]">
+  <component name="RunManager" selected="Gradle.SelenideTest.githubTest">
     <configuration name="AllureReport_Ten [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -197,9 +185,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SelenideTest.githubTest" />
         <item itemvalue="Gradle.AllureReport_Ten [allureServe]" />
         <item itemvalue="Gradle.LamdaStepTest.githubTest" />
-        <item itemvalue="Gradle.SelenideTest.githubTest" />
         <item itemvalue="Gradle.AllureReport_Ten [allureReport]" />
         <item itemvalue="Gradle.AllureReport_Ten [test]" />
       </list>
@@ -214,6 +202,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656243472899</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1656424382685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656424382685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,5 +222,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>

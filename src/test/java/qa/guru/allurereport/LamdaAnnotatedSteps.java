@@ -14,8 +14,8 @@ import static org.openqa.selenium.By.partialLinkText;
 
 public class LamdaAnnotatedSteps {
 
-    private final String REPOSITORY = "eroshenkoam/allure-example";
-    private final Integer ISSUE_NUMBER = 76;
+    private final String REPOSITORY = "Mihail96tramontana/AllureReport_Ten";
+    private final Integer ISSUE_NUMBER = 1;
 
     @Test
     public void githubTest(){
