@@ -12,7 +12,7 @@ import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 import static org.openqa.selenium.By.partialLinkText;
 
-public class LamdaAnnotatedSteps {
+public class LamdaAnnotatedSteps extends TestBase{
 
     private final String REPOSITORY = "Mihail96tramontana/AllureReport_Ten";
     private final Integer ISSUE_NUMBER = 1;
@@ -20,7 +20,6 @@ public class LamdaAnnotatedSteps {
     @Test
     public void testLamdaStep(){
 
-        SelenideLogger.addListener("allure", new AllureSelenide());
         step("Открываем главую страницу", () -> {
             open("https://github.com/");
         });

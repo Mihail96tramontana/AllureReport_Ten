@@ -35,6 +35,6 @@ public class WebSteps {
 
     @Step("Проверяем, что существует Issues с номером {issueNumber}")
     public void shouldSeeIssueWithNumber() {
-        $(withText("#1")).should(Condition.exist);
+        $(withText("#1")).should(Condition.visible);
     }
 }

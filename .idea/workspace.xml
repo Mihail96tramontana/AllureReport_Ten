@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6249dbc1-182d-41e7-8bae-d7355d0c1f20" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/LamdaAnnotatedSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/LamdaAnnotatedSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/SelenideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/WebSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/WebSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656438934430</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test">
+      <created>1656440399046</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656440399046</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
