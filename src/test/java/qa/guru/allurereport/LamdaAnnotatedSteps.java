@@ -18,7 +18,7 @@ public class LamdaAnnotatedSteps {
     private final Integer ISSUE_NUMBER = 1;
 
     @Test
-    public void githubTest(){
+    public void testLamdaStep(){
 
         SelenideLogger.addListener("allure", new AllureSelenide());
         step("Открываем главую страницу", () -> {
@@ -42,5 +42,18 @@ public class LamdaAnnotatedSteps {
         step("Проверяем, что существует Issues с номером", () -> {
             $(withText("#" + ISSUE_NUMBER)).should(Condition.exist);
         });
+    }
+
+    @Test
+    public void testAnnotatedStep(){
+
+        SelenideLogger.addListener("allure", new AllureSelenide());
+        WebSteps steps = new WebSteps();
+
+        steps.openMainPage();
+        steps.searchForRepository();
+        steps.openRepositoryLink();
+        steps.openIssueTab();
+        steps.shouldSeeIssueWithNumber();
     }
 }
