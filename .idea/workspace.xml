@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6249dbc1-182d-41e7-8bae-d7355d0c1f20" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/LamdaAnnotatedSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/LamdaAnnotatedSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/WebSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allurereport/WebSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,28 +73,7 @@
       <recent name="qa.guru.allurereport" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SelenideTest.githubTest">
-    <configuration name="AllureReport_Ten [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="allureReport" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.AllureReport_Ten [allureServe]">
     <configuration name="AllureReport_Ten [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -117,23 +95,48 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AllureReport_Ten [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LamdaAnnotatedSteps.testAnnotatedStep" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;qa.guru.allurereport.LamdaAnnotatedSteps.testAnnotatedStep&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LamdaAnnotatedSteps.testLamdaStep" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;qa.guru.allurereport.LamdaAnnotatedSteps.testLamdaStep&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -186,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SelenideTest.githubTest" />
         <item itemvalue="Gradle.AllureReport_Ten [allureServe]" />
+        <item itemvalue="Gradle.LamdaAnnotatedSteps.testAnnotatedStep" />
+        <item itemvalue="Gradle.LamdaAnnotatedSteps.testLamdaStep" />
+        <item itemvalue="Gradle.SelenideTest.githubTest" />
         <item itemvalue="Gradle.LamdaStepTest.githubTest" />
-        <item itemvalue="Gradle.AllureReport_Ten [allureReport]" />
-        <item itemvalue="Gradle.AllureReport_Ten [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656424888097</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1656435509621</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656435509621</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
